@@ -6,7 +6,6 @@ Features (still in progress):
 Instructions:
 - Download the zip folder and extract into Documents folder (Make sure it is in the documents folder, as the scripts won't run properly if not put in the doucments folder)
 - Make sure your project directory is as follows:
-- Documents:
   - JavaApp
     - Files
     - Runtime
