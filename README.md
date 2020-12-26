@@ -1,6 +1,9 @@
 # javaflashplayer
 A rudimentary Flash Player for Windows using Java
 
+- Requires JDK 9.0.4 installed in the user's Program Files folder
+- If you have a different JDK version, change the JDK version in the run.bat file
+
 Features (still in progress):
 - Save state features
 - No need to run java scripts (will be run automatically by bat scripts)
@@ -14,9 +17,13 @@ Instructions:
       - Data
         - recents.emubackup
       - flashplayer_32_sa_debug.exe
+      - Launcher$1$1$1$1.class
+      - Launcher$1$1$1.class
+      - Launcher$1$1.class
       - Launcher$1.class
       - Launcher$2.class
       - Launcher$3.class
+      - Launcher$4.class
       - Launcher.class
       - Launcher.java
       - Main.class
@@ -24,7 +31,7 @@ Instructions:
       - run.bat
       - script.vbs
       - start.bat
-    - Saves
+   - Saves
     - emu.bat
       
 
