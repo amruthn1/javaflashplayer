@@ -31,7 +31,7 @@ Instructions:
       - run.bat
       - script.vbs
       - start.bat
-   - Saves
-    - emu.bat
+    - Saves
+      - emu.bat
       
 
