@@ -8,6 +8,7 @@ Features (still in progress):
 - Save state features
 - No need to run java scripts (will be run automatically by bat scripts)
 - Has ability to automatically search for and download SWF files that the user chooses
+
 Instructions:
 - Download the zip folder and extract into Documents folder (Make sure it is in the documents folder, as the scripts won't run properly if not put in the documents folder)
       
