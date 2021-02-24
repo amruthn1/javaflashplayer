@@ -11,5 +11,8 @@ Features (still in progress):
 
 Instructions:
 - Download the zip folder and extract into Documents folder (Make sure it is in the documents folder, as the scripts won't run properly if not put in the documents folder)
+
+Notes:
+- If you wish, you can add extra URL's to the archive.xml file in the same format as the current XML file only contains the SWF files from ArmorGames's server listing.
       
 
