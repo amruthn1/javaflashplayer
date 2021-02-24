@@ -14,5 +14,4 @@ Instructions:
 
 Notes:
 - If you wish, you can add extra URL's to the archive.xml file in the same format as the current XML file only contains the SWF files from ArmorGames's server listing.
-      
-
+- There is a current bug where the SWF searcher isn't loading the XML file properly. (Fix still in progress)
