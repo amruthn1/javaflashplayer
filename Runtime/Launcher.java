@@ -116,7 +116,7 @@ public class Launcher {
                         String z = y.replace(" ", "-");
                         System.out.println(z);
                         String documents_path = new JFileChooser().getFileSystemView().getDefaultDirectory().toString();
-                        File file = new File(documents_path + "\\JavaApp\\Runtime\\Data\\archive.xml");
+                        File file = new File(documents_path + "\\javaflashplayer\\Runtime\\Data\\archive.xml");
                         Scanner in = null;
                         String[] results;
                         String[] parsed;
@@ -154,7 +154,7 @@ public class Launcher {
                                                 System.out.println(selected);
                                                 String url = "https://archive.org/download/armorgames/" + selected;
                                                 ReadableByteChannel readChannel = Channels.newChannel(new URL(url).openStream());
-                                                FileOutputStream fileOS = new FileOutputStream(documents_path + "\\JavaApp\\Files\\" + selected);
+                                                FileOutputStream fileOS = new FileOutputStream(documents_path + "\\javaflashplayer\\Files\\" + selected);
                                                 FileChannel writeChannel = fileOS.getChannel();
                                                 search.dispose();
                                                 JOptionPane.showMessageDialog(null, "The file will be downloaded in the background. The amount of time it will take will depend on your internet connection.");
@@ -183,7 +183,7 @@ public class Launcher {
                 String documents_path = new JFileChooser().getFileSystemView().getDefaultDirectory().toString();
                 System.out.println("clicked quickstart");
                 try {
-                    File quickdata = new File(documents_path + "\\JavaApp\\Runtime\\Data\\recents.emubackup");
+                    File quickdata = new File(documents_path + "\\javaflashplayer\\Runtime\\Data\\recents.emubackup");
                     BufferedReader br = new BufferedReader(new FileReader(quickdata));
                     String st;
                     while ((st = br.readLine()) != null) {
@@ -192,7 +192,7 @@ public class Launcher {
                             System.out.println("Nothing in quicksave");
                             JOptionPane.showMessageDialog(null, "To use the quicksave feature, the player had to have been used before.");
                         } else {
-                            Runtime.getRuntime().exec(new String[]{documents_path + "\\JavaApp\\Runtime\\start.bat", "-p", st});
+                            Runtime.getRuntime().exec(new String[]{documents_path + "\\javaflashplayer\\Runtime\\start.bat", "-p", st});
                             container.dispose();
                         }
                     }
@@ -207,7 +207,7 @@ public class Launcher {
                 try {
                     System.out.println("clicked clearquicksave");
                     String documents_path = new JFileChooser().getFileSystemView().getDefaultDirectory().toString();
-                    PrintWriter writer = new PrintWriter(documents_path + "\\JavaApp\\Runtime\\Data\\recents.emubackup");
+                    PrintWriter writer = new PrintWriter(documents_path + "\\javaflashplayer\\Runtime\\Data\\recents.emubackup");
                     writer.print("NULL");
                     writer.close();
                 } catch (Exception filenotfound) {
