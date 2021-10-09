@@ -3,6 +3,7 @@ A rudimentary Flash Player for Windows using Java
 
 - Requires JDK 9.0.4 installed in the user's Program Files folder
 - If you have a different JDK version, change the JDK version in the run.bat file
+- Make sure the files are placed in the Documents folder with the Runtime folder being in the root of the Documents folder
 
 Features:
 - Save state features
